@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:badelf="http://bad-elf.com/xmlschemas/GpxExtensionsV1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://bad-elf.com/xmlschemas http://bad-elf.com/xmlschemas/GpxExtensionsV1.xsd" version="1.1" creator="Bad Elf GPS Pro+">
+	<metadata>
+		<extensions>
+			<badelf:gpxDataSource>BadElfApp:3.3.6-1230</badelf:gpxDataSource>
+			<badelf:modelName>BE-GPS-2300</badelf:modelName>
+			<badelf:modelSerialNumber>022204</badelf:modelSerialNumber>
+			<badelf:modelNickname>Bad Elf GPS Pro+</badelf:modelNickname>
+			<badelf:modelNumber>BE-GPS-2300</badelf:modelNumber>
+			<badelf:modelHardwareRevision>8.0.0</badelf:modelHardwareRevision>
+			<badelf:modelFirmwareRevision>2.1.61</badelf:modelFirmwareRevision>
+			<badelf:elevationSource>gps</badelf:elevationSource>
+		</extensions>
+	</metadata>
+	<trk>
+		<name>Thursday Afternoon Walk</name>
+		<trkseg>
+			<trkpt lat="38.884975" lon="-76.549239">
+				<ele>6.200000</ele>
+				<time>2025-06-26T19:11:26.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884975" lon="-76.549237">
+				<ele>6.200000</ele>
+				<time>2025-06-26T19:11:27.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884975" lon="-76.549237">
+				<ele>6.300000</ele>
+				<time>2025-06-26T19:11:28.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884977" lon="-76.549237">
+				<ele>6.300000</ele>
+				<time>2025-06-26T19:11:29.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884977" lon="-76.549241">
+				<ele>6.600000</ele>
+				<time>2025-06-26T19:11:30.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884975" lon="-76.549242">
+				<ele>6.900000</ele>
+				<time>2025-06-26T19:11:31.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884972" lon="-76.549242">
+				<ele>7.200000</ele>
+				<time>2025-06-26T19:11:32.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884968" lon="-76.549241">
+				<ele>7.500000</ele>
+				<time>2025-06-26T19:11:33.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884962" lon="-76.549242">
+				<ele>7.900000</ele>
+				<time>2025-06-26T19:11:34.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884955" lon="-76.549246">
+				<ele>8.200000</ele>
+				<time>2025-06-26T19:11:35.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884952" lon="-76.549249">
+				<ele>8.400000</ele>
+				<time>2025-06-26T19:11:36.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884950" lon="-76.549251">
+				<ele>8.600000</ele>
+				<time>2025-06-26T19:11:37.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884950" lon="-76.549252">
+				<ele>8.700000</ele>
+				<time>2025-06-26T19:11:38.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884948" lon="-76.549251">
+				<ele>8.800000</ele>
+				<time>2025-06-26T19:11:39.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884945" lon="-76.549249">
+				<ele>9.000000</ele>
+				<time>2025-06-26T19:11:40.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884945" lon="-76.549246">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:41.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549246">
+				<ele>9.300000</ele>
+				<time>2025-06-26T19:11:42.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884945" lon="-76.549246">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:43.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884945" lon="-76.549247">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:44.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549247">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:45.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:46.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549247">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:47.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549247">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:48.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:49.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884947" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:50.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884948" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:51.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884950" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:52.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884952" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:53.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884952" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:54.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884952" lon="-76.549249">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:55.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.884952" lon="-76.549251">
+				<ele>9.200000</ele>
+				<time>2025-06-26T19:11:56.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

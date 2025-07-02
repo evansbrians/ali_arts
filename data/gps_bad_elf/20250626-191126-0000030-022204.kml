@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<Style>
+			<LineStyle>
+				<color>f8000080</color>
+				<width>8.000000</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<Data name="modelName">
+				<displayName>Bad Elf Model</displayName>
+				<value>Bad Elf GPS Pro+</value>
+			</Data>
+			<Data name="modelSerialNumber">
+				<displayName>Serial Number</displayName>
+				<value>022204</value>
+			</Data>
+			<Data name="modelNumber">
+				<displayName>Model Number</displayName>
+				<value>BE-GPS-2300</value>
+			</Data>
+			<Data name="modelHardwareRevision">
+				<displayName>H/W Version</displayName>
+				<value>8.0.0</value>
+			</Data>
+			<Data name="modelFirmwareRevision">
+				<displayName>Firmware Version</displayName>
+				<value>2.1.61</value>
+			</Data>
+		</ExtendedData>
+		<ScreenOverlay>
+			<name>Bad Elf</name>
+			<Icon>
+				<href>http://epo.bad-elf.com/bad-elf-kml-logo.png</href>
+			</Icon>
+			<overlayXY x="0" y="1" xunits="fraction" yunits="fraction" />
+			<screenXY x="0.01" y="0.17" xunits="fraction" yunits="fraction" />
+			<size x="0.10" y="0" xunits="fraction" yunits="fraction" />
+		</ScreenOverlay>
+		<Placemark>
+			<name>Start</name>
+			<TimeStamp>
+				<when>2025-06-26T19:11:26Z</when>
+			</TimeStamp>
+			<Point>
+				<coordinates>-76.549240,38.884975,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thursday Afternoon Walk</name>
+			<TimeStamp>
+				<when>2025-06-26T19:11:56Z</when>
+			</TimeStamp>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>8.000000</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-76.549240,38.884975,6.200000 -76.549240,38.884975,6.200000 -76.549240,38.884975,6.300000 -76.549240,38.884975,6.300000 -76.549240,38.884975,6.600000 -76.549240,38.884975,6.900000 -76.549240,38.884972,7.200000 -76.549240,38.884968,7.500000 -76.549240,38.884960,7.900000 -76.549248,38.884956,8.200000 -76.549248,38.884953,8.400000 -76.549248,38.884949,8.600000 -76.549255,38.884949,8.700000 -76.549248,38.884949,8.800000 -76.549248,38.884945,9.000000 -76.549248,38.884945,9.200000 -76.549248,38.884949,9.300000 -76.549248,38.884945,9.200000 -76.549248,38.884945,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884949,9.200000 -76.549248,38.884953,9.200000 -76.549248,38.884953,9.200000 -76.549248,38.884953,9.200000 -76.549248,38.884953,9.200000 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>8.000000</width>
+				</LineStyle>
+			</Style>
+			<gx:Track>
+				<altitudeMode>absolute</altitudeMode>
+				<when>2025-06-26T19:11:26Z</when>
+				<when>2025-06-26T19:11:27Z</when>
+				<when>2025-06-26T19:11:28Z</when>
+				<when>2025-06-26T19:11:29Z</when>
+				<when>2025-06-26T19:11:30Z</when>
+				<when>2025-06-26T19:11:31Z</when>
+				<when>2025-06-26T19:11:32Z</when>
+				<when>2025-06-26T19:11:33Z</when>
+				<when>2025-06-26T19:11:34Z</when>
+				<when>2025-06-26T19:11:35Z</when>
+				<when>2025-06-26T19:11:36Z</when>
+				<when>2025-06-26T19:11:37Z</when>
+				<when>2025-06-26T19:11:38Z</when>
+				<when>2025-06-26T19:11:39Z</when>
+				<when>2025-06-26T19:11:40Z</when>
+				<when>2025-06-26T19:11:41Z</when>
+				<when>2025-06-26T19:11:42Z</when>
+				<when>2025-06-26T19:11:43Z</when>
+				<when>2025-06-26T19:11:44Z</when>
+				<when>2025-06-26T19:11:45Z</when>
+				<when>2025-06-26T19:11:46Z</when>
+				<when>2025-06-26T19:11:47Z</when>
+				<when>2025-06-26T19:11:48Z</when>
+				<when>2025-06-26T19:11:49Z</when>
+				<when>2025-06-26T19:11:50Z</when>
+				<when>2025-06-26T19:11:51Z</when>
+				<when>2025-06-26T19:11:52Z</when>
+				<when>2025-06-26T19:11:53Z</when>
+				<when>2025-06-26T19:11:54Z</when>
+				<when>2025-06-26T19:11:55Z</when>
+				<when>2025-06-26T19:11:56Z</when>
+				<gx:coord>-76.549240 38.884975 6.200000</gx:coord>
+				<gx:coord>-76.549240 38.884975 6.200000</gx:coord>
+				<gx:coord>-76.549240 38.884975 6.300000</gx:coord>
+				<gx:coord>-76.549240 38.884975 6.300000</gx:coord>
+				<gx:coord>-76.549240 38.884975 6.600000</gx:coord>
+				<gx:coord>-76.549240 38.884975 6.900000</gx:coord>
+				<gx:coord>-76.549240 38.884972 7.200000</gx:coord>
+				<gx:coord>-76.549240 38.884968 7.500000</gx:coord>
+				<gx:coord>-76.549240 38.884960 7.900000</gx:coord>
+				<gx:coord>-76.549248 38.884956 8.200000</gx:coord>
+				<gx:coord>-76.549248 38.884953 8.400000</gx:coord>
+				<gx:coord>-76.549248 38.884949 8.600000</gx:coord>
+				<gx:coord>-76.549255 38.884949 8.700000</gx:coord>
+				<gx:coord>-76.549248 38.884949 8.800000</gx:coord>
+				<gx:coord>-76.549248 38.884945 9.000000</gx:coord>
+				<gx:coord>-76.549248 38.884945 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.300000</gx:coord>
+				<gx:coord>-76.549248 38.884945 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884945 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884949 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884953 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884953 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884953 9.200000</gx:coord>
+				<gx:coord>-76.549248 38.884953 9.200000</gx:coord>
+			</gx:Track>
+		</Placemark>
+		<Placemark>
+			<name>End</name>
+			<TimeStamp>
+				<when>2025-06-26T19:11:56Z</when>
+			</TimeStamp>
+			<Point>
+				<coordinates>-76.549248,38.884953,0.000000</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
