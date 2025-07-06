@@ -34,7 +34,10 @@ node_locations <-
     "serc-grass-a-dark", -76.546727, 38.895952,
     "serc-grass-a-light", -76.5466698, 38.896888,
     "serc-grass-b-dark", -76.546887, 38.890811,
-    "serc-grass-b-light", -76.547898, 38.891225
+    "serc-grass-b-light", -76.547898, 38.891225,
+    "serc-forest-a-light", -76.54487, 38.886876,
+    "serc-forest-a-dark", -76.544083, 38.886312,
+    
   ) %>% 
   st_as_sf(
     coords = c("long", "lat"),

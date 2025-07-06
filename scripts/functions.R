@@ -40,7 +40,7 @@ subset_to_sampling_event <-
           transect_id == {{ transect_id }}
         ) %>%
         mutate(
-          direction = str_extract(stop_id, "d|l$"),
+          direction = str_extract(stop_id, "(d|l)$"),
           light_dist =
             case_when(
               str_detect(stop_id, "light") ~ 0,
@@ -130,7 +130,3 @@ get_bad_elf_dist <-
       as_tibble() %>% 
       select(time, dark_dist, light_dist)
   }
-
-
-
-
