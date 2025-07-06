@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:badelf="http://bad-elf.com/xmlschemas/GpxExtensionsV1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://bad-elf.com/xmlschemas http://bad-elf.com/xmlschemas/GpxExtensionsV1.xsd" version="1.1" creator="Bad Elf GPS Pro+">
+	<metadata>
+		<extensions>
+			<badelf:gpxDataSource>BadElfApp:3.3.6-1230</badelf:gpxDataSource>
+			<badelf:modelName>BE-GPS-2300</badelf:modelName>
+			<badelf:modelSerialNumber>022204</badelf:modelSerialNumber>
+			<badelf:modelNickname>Bad Elf GPS Pro+</badelf:modelNickname>
+			<badelf:modelNumber>BE-GPS-2300</badelf:modelNumber>
+			<badelf:modelHardwareRevision>8.0.0</badelf:modelHardwareRevision>
+			<badelf:modelFirmwareRevision>2.1.61</badelf:modelFirmwareRevision>
+			<badelf:elevationSource>gps</badelf:elevationSource>
+		</extensions>
+	</metadata>
+	<trk>
+		<name>Saturday Morning Walk</name>
+		<trkseg>
+			<trkpt lat="38.928680" lon="-77.051771">
+				<ele>37.600000</ele>
+				<time>2025-06-21T14:43:37.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928683" lon="-77.051769">
+				<ele>37.500000</ele>
+				<time>2025-06-21T14:43:38.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928685" lon="-77.051766">
+				<ele>37.300000</ele>
+				<time>2025-06-21T14:43:39.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928688" lon="-77.051764">
+				<ele>37.200000</ele>
+				<time>2025-06-21T14:43:40.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928692" lon="-77.051762">
+				<ele>37.100000</ele>
+				<time>2025-06-21T14:43:41.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928695" lon="-77.051759">
+				<ele>36.900000</ele>
+				<time>2025-06-21T14:43:42.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051756">
+				<ele>36.700000</ele>
+				<time>2025-06-21T14:43:43.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.205778</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051752">
+				<ele>36.700000</ele>
+				<time>2025-06-21T14:43:44.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.205778</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051749">
+				<ele>36.600000</ele>
+				<time>2025-06-21T14:43:45.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.205778</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051747">
+				<ele>36.500000</ele>
+				<time>2025-06-21T14:43:46.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051746">
+				<ele>36.400000</ele>
+				<time>2025-06-21T14:43:47.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051744">
+				<ele>36.300000</ele>
+				<time>2025-06-21T14:43:48.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051744">
+				<ele>36.200000</ele>
+				<time>2025-06-21T14:43:49.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051742">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:50.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051742">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:51.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051741">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:52.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051739">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:53.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051739">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:54.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051739">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:55.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:56.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:57.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051736">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:58.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:43:59.000Z</time>
+				<hdop>0.900000</hdop>
+				<extensions>
+					<badelf:speed>0.000000</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:00.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928702" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:01.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.051444</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928700" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:02.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928698" lon="-77.051737">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:03.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.102889</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928698" lon="-77.051739">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:04.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.154333</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928695" lon="-77.051739">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:05.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.205778</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928693" lon="-77.051741">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:06.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.257222</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928690" lon="-77.051742">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:07.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.308666</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928675" lon="-77.051751">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:08.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.257222</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928662" lon="-77.051766">
+				<ele>36.100000</ele>
+				<time>2025-06-21T14:44:09.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.308666</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928633" lon="-77.051777">
+				<ele>36.000000</ele>
+				<time>2025-06-21T14:44:10.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.308666</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928610" lon="-77.051786">
+				<ele>35.900000</ele>
+				<time>2025-06-21T14:44:11.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.257222</badelf:speed>
+				</extensions>
+			</trkpt>
+			<trkpt lat="38.928597" lon="-77.051796">
+				<ele>35.800000</ele>
+				<time>2025-06-21T14:44:12.000Z</time>
+				<hdop>1.000000</hdop>
+				<extensions>
+					<badelf:speed>0.257222</badelf:speed>
+				</extensions>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

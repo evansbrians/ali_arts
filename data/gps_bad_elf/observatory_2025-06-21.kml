@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<Style>
+			<LineStyle>
+				<color>f8000080</color>
+				<width>8.000000</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<Data name="modelName">
+				<displayName>Bad Elf Model</displayName>
+				<value>Bad Elf GPS Pro+</value>
+			</Data>
+			<Data name="modelSerialNumber">
+				<displayName>Serial Number</displayName>
+				<value>022204</value>
+			</Data>
+			<Data name="modelNumber">
+				<displayName>Model Number</displayName>
+				<value>BE-GPS-2300</value>
+			</Data>
+			<Data name="modelHardwareRevision">
+				<displayName>H/W Version</displayName>
+				<value>8.0.0</value>
+			</Data>
+			<Data name="modelFirmwareRevision">
+				<displayName>Firmware Version</displayName>
+				<value>2.1.61</value>
+			</Data>
+		</ExtendedData>
+		<ScreenOverlay>
+			<name>Bad Elf</name>
+			<Icon>
+				<href>http://epo.bad-elf.com/bad-elf-kml-logo.png</href>
+			</Icon>
+			<overlayXY x="0" y="1" xunits="fraction" yunits="fraction" />
+			<screenXY x="0.01" y="0.17" xunits="fraction" yunits="fraction" />
+			<size x="0.10" y="0" xunits="fraction" yunits="fraction" />
+		</ScreenOverlay>
+		<Placemark>
+			<name>Start</name>
+			<TimeStamp>
+				<when>2025-06-21T14:43:37Z</when>
+			</TimeStamp>
+			<Point>
+				<coordinates>-77.051773,38.928680,0.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saturday Morning Walk</name>
+			<TimeStamp>
+				<when>2025-06-21T14:44:12Z</when>
+			</TimeStamp>
+			<Style>
+				<LineStyle>
+					<color>ffff0000</color>
+					<width>8.000000</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-77.051773,38.928680,37.599998 -77.051765,38.928684,37.500000 -77.051765,38.928684,37.299999 -77.051765,38.928688,37.200001 -77.051765,38.928692,37.099998 -77.051758,38.928696,36.900002 -77.051758,38.928699,36.700001 -77.051750,38.928699,36.700001 -77.051750,38.928699,36.599998 -77.051750,38.928699,36.500000 -77.051743,38.928703,36.400002 -77.051743,38.928703,36.299999 -77.051743,38.928699,36.200001 -77.051743,38.928699,36.099998 -77.051743,38.928699,36.099998 -77.051743,38.928699,36.099998 -77.051743,38.928703,36.099998 -77.051743,38.928703,36.099998 -77.051743,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928703,36.099998 -77.051735,38.928699,36.099998 -77.051735,38.928699,36.099998 -77.051743,38.928699,36.099998 -77.051743,38.928696,36.099998 -77.051743,38.928692,36.099998 -77.051743,38.928692,36.099998 -77.051750,38.928677,36.099998 -77.051765,38.928661,36.099998 -77.051781,38.928635,36.000000 -77.051788,38.928612,35.900002 -77.051796,38.928596,35.799999 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>8.000000</width>
+				</LineStyle>
+			</Style>
+			<gx:Track>
+				<altitudeMode>absolute</altitudeMode>
+				<when>2025-06-21T14:43:37Z</when>
+				<when>2025-06-21T14:43:38Z</when>
+				<when>2025-06-21T14:43:39Z</when>
+				<when>2025-06-21T14:43:40Z</when>
+				<when>2025-06-21T14:43:41Z</when>
+				<when>2025-06-21T14:43:42Z</when>
+				<when>2025-06-21T14:43:43Z</when>
+				<when>2025-06-21T14:43:44Z</when>
+				<when>2025-06-21T14:43:45Z</when>
+				<when>2025-06-21T14:43:46Z</when>
+				<when>2025-06-21T14:43:47Z</when>
+				<when>2025-06-21T14:43:48Z</when>
+				<when>2025-06-21T14:43:49Z</when>
+				<when>2025-06-21T14:43:50Z</when>
+				<when>2025-06-21T14:43:51Z</when>
+				<when>2025-06-21T14:43:52Z</when>
+				<when>2025-06-21T14:43:53Z</when>
+				<when>2025-06-21T14:43:54Z</when>
+				<when>2025-06-21T14:43:55Z</when>
+				<when>2025-06-21T14:43:56Z</when>
+				<when>2025-06-21T14:43:57Z</when>
+				<when>2025-06-21T14:43:58Z</when>
+				<when>2025-06-21T14:43:59Z</when>
+				<when>2025-06-21T14:44:00Z</when>
+				<when>2025-06-21T14:44:01Z</when>
+				<when>2025-06-21T14:44:02Z</when>
+				<when>2025-06-21T14:44:03Z</when>
+				<when>2025-06-21T14:44:04Z</when>
+				<when>2025-06-21T14:44:05Z</when>
+				<when>2025-06-21T14:44:06Z</when>
+				<when>2025-06-21T14:44:07Z</when>
+				<when>2025-06-21T14:44:08Z</when>
+				<when>2025-06-21T14:44:09Z</when>
+				<when>2025-06-21T14:44:10Z</when>
+				<when>2025-06-21T14:44:11Z</when>
+				<when>2025-06-21T14:44:12Z</when>
+				<gx:coord>-77.051773 38.928680 37.599998</gx:coord>
+				<gx:coord>-77.051765 38.928684 37.500000</gx:coord>
+				<gx:coord>-77.051765 38.928684 37.299999</gx:coord>
+				<gx:coord>-77.051765 38.928688 37.200001</gx:coord>
+				<gx:coord>-77.051765 38.928692 37.099998</gx:coord>
+				<gx:coord>-77.051758 38.928696 36.900002</gx:coord>
+				<gx:coord>-77.051758 38.928699 36.700001</gx:coord>
+				<gx:coord>-77.051750 38.928699 36.700001</gx:coord>
+				<gx:coord>-77.051750 38.928699 36.599998</gx:coord>
+				<gx:coord>-77.051750 38.928699 36.500000</gx:coord>
+				<gx:coord>-77.051743 38.928703 36.400002</gx:coord>
+				<gx:coord>-77.051743 38.928703 36.299999</gx:coord>
+				<gx:coord>-77.051743 38.928699 36.200001</gx:coord>
+				<gx:coord>-77.051743 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928703 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051735 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928699 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928696 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928692 36.099998</gx:coord>
+				<gx:coord>-77.051743 38.928692 36.099998</gx:coord>
+				<gx:coord>-77.051750 38.928677 36.099998</gx:coord>
+				<gx:coord>-77.051765 38.928661 36.099998</gx:coord>
+				<gx:coord>-77.051781 38.928635 36.000000</gx:coord>
+				<gx:coord>-77.051788 38.928612 35.900002</gx:coord>
+				<gx:coord>-77.051796 38.928596 35.799999</gx:coord>
+			</gx:Track>
+		</Placemark>
+		<Placemark>
+			<name>End</name>
+			<TimeStamp>
+				<when>2025-06-21T14:44:12Z</when>
+			</TimeStamp>
+			<Point>
+				<coordinates>-77.051796,38.928596,0.000000</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
