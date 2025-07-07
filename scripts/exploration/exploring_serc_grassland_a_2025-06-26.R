@@ -30,7 +30,7 @@ stop_data <-
       ),
     dark_dist = abs(100 - light_dist),
     .before = start
-  ) %>% 
+  ) %>%
   select(!transect_id)
 
 detections <-
