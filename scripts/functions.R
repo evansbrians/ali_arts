@@ -7,64 +7,6 @@ decimal_hours <-
       second(.time)/3600
   }
 
-# subset data to a sampling event -----------------------------------------
-
-subset_to_sampling_event <-
-  function(
-    date,
-    bad_elf_file,
-    transect_id
-  ) {
-    list(
-      
-      # Detections for a given day of sampling:
-      
-      focal_detections = 
-        detections %>% 
-        filter(
-          str_detect(time, {{ date }})
-        ),
-      
-      # Bad Elf:
-      
-      focal_bad_elf =
-        bad_elf %>% 
-        filter(file == {{ bad_elf_file }}),
-      
-      # Stop data:
-      
-      focal_stops =
-        stop_data_serc_scbi %>% 
-        filter(
-          str_detect(start, {{ date }}),
-          transect_id == {{ transect_id }}
-        ) %>%
-        mutate(
-          direction = str_extract(stop_id, "(d|l)$"),
-          light_dist =
-            case_when(
-              str_detect(stop_id, "light") ~ 0,
-              str_detect(stop_id, "dark") ~ 100,
-              .default = 
-                stop_id %>% 
-                str_extract("[0-9]*") %>% 
-                as.numeric()
-            ),
-          dark_dist = abs(100 - light_dist),
-          .before = start
-        ) %>% 
-        select(!transect_id),
-      
-      # Node locations:
-      
-      focal_nodes =
-        node_locations %>% 
-        filter(
-          str_detect(location, transect_id)
-        )
-    )
-  }
-
 # align ali-reported stops and detections ---------------------------------
 
 get_stop_rss <-
@@ -83,6 +25,7 @@ get_stop_rss <-
           # Subset detections to the stop:
           
           focal_detections %>% 
+            select(!transect_id) %>% 
             filter(
               between(
                 time,
