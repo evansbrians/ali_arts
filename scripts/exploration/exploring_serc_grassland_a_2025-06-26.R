@@ -7,44 +7,67 @@ library(tidyverse)
 
 source("scripts/functions.R")
 
-source("scripts/preprocess.R")
-
 tmap_mode("view")
 
-# Subset data to target sampling event:
+# get and subset data -----------------------------------------------------
 
-subset_to_sampling_event(
-  date = "2025-06-26",
-  bad_elf_file = "20250626-163842-0002888-022204",
-  transect_id = "serc-forest-a"
-) %>% 
-  list2env(.GlobalEnv)
-
-# Remove the ride from the focal bad elf file:
-
-focal_bad_elf <-
-  focal_bad_elf %>% 
+stop_data <- 
+  read_rds("data/processed/stop_data_serc_scbi.rds") %>% 
   filter(
-    time <= as_datetime("2025-06-26 15:31:30")
+    transect_id == "serc-grass-a",
+    as_date(start) == "2025-06-26",
+  ) %>% 
+  mutate(
+    direction = str_extract(stop_id, "(d|l)$"),
+    light_dist =
+      case_when(
+        str_detect(stop_id, "light") ~ 0,
+        str_detect(stop_id, "dark") ~ 100,
+        .default = 
+          stop_id %>% 
+          str_extract("[0-9]*") %>% 
+          as.numeric()
+      ),
+    dark_dist = abs(100 - light_dist),
+    .before = start
+  ) %>% 
+  select(!transect_id)
+
+detections <-
+  read_rds("data/processed/detections.rds") %>% 
+  filter(
+    transect_id == "serc-grass-a",
+    as_date(time) == "2025-06-26",
   )
+
+node_locations <-
+  read_rds("data/processed/node_locations.rds") %>% 
+  filter(
+    str_detect(location, "serc-grass-a")
+  )
+
+bad_elf <- 
+  read_rds("data/processed/bad_elf.rds") %>% 
+  filter(file == "serc_grassland_a_2025-06-26")
 
 # map of walk and nodes ---------------------------------------------------
 
 tm_basemap("Esri.WorldImagery") +
-  focal_bad_elf %>% 
+  bad_elf %>% 
   tm_shape() +
   tm_dots() +
-  focal_nodes %>%
-  tm_shape(focal_nodes) +
+  node_locations %>%
+  tm_shape(node_locations) +
   tm_dots(
     fill = "location",
-    size = 0.75
+    col = "#000000",
+    size = 1
   )
 
 # align detections and stop times -----------------------------------------
 
 stop_rss <- 
-  get_stop_rss(focal_stops, focal_detections)
+  get_stop_rss(stop_data, detections)
 
 # Plot stop RSS by time:
 
@@ -85,11 +108,11 @@ stop_rss %>%
 # with bad elf ------------------------------------------------------------
 
 bad_elf_dist <-
-  get_bad_elf_dist(focal_bad_elf, focal_nodes)
+  get_bad_elf_dist(bad_elf, node_locations)
 
 # RSS of detections with distance to the light node:
 
-focal_detections %>% 
+detections %>% 
   inner_join(
     bad_elf_dist,
     by = "time"
@@ -100,12 +123,12 @@ focal_detections %>%
     y = rssi,
     col = tag
   ) +
-  geom_point()  +
+  geom_point() +
   facet_wrap(~ tag)
 
 # RSS of detections with distance to the dark node:
 
-focal_detections %>% 
+detections %>% 
   inner_join(
     bad_elf_dist,
     by = "time"
