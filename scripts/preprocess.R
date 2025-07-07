@@ -112,7 +112,7 @@ stop_data_serc_scbi <-
         
         # Because the hours were off on the watch:
         
-        as_datetime() - 3600
+        as_datetime()
     ),
     .keep = "none"
   )
