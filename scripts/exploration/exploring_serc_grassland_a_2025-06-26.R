@@ -144,7 +144,7 @@ detections %>%
 
 # RSS at the light node with sampling time:
 
-focal_detections %>% 
+detections %>% 
   inner_join(
     bad_elf_dist,
     by = "time"
@@ -161,7 +161,7 @@ focal_detections %>%
 # What time did Ali turn around?
 
 turn_around <- 
-  focal_stops %>% 
+  stop_data %>% 
   filter(
     str_detect(stop_id, "^dark")
   ) %>% 
@@ -173,10 +173,10 @@ turn_around <-
 # Does this line up with the spatial data?
 
 tm_basemap("Esri.WorldImagery") +
-  focal_bad_elf %>% 
+  bad_elf %>% 
   tm_shape() +
   tm_dots(fill = "#dcdcdc") +
-  focal_bad_elf %>% 
+  bad_elf %>% 
   filter(
     between(
       time, 
@@ -186,8 +186,8 @@ tm_basemap("Esri.WorldImagery") +
   ) %>% 
   tm_shape() +
   tm_dots() +
-  focal_nodes %>%
-  tm_shape(focal_nodes) +
+  node_locations %>%
+  tm_shape() +
   tm_dots(
     fill = "location",
     size = 0.75

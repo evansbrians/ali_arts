@@ -221,7 +221,7 @@ detections_pre_independence <-
   
   # Repair times:
   
-  mutate(time = time + time_diff) %>% 
+  mutate(time = time - time_diff) %>% 
   
   # Subset to days on or after 13 June:
   
