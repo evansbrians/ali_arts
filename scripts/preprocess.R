@@ -51,6 +51,8 @@ node_locations <-
     "scbi-grass-b-light", -78.16643, 38.89540,
     "scbi-forest-a-light", -78.15948, 38.89253,
     "scbi-forest-a-dark", -78.16055, 38.89284,
+    "scbi-forest-b-light", -78.16423, 38.89320,
+    "scbi-forest-b-dark", -78.16332, 38.89271,
     "sewage", -77.05176, 38.92860,
     "waterfall", -77.05095, 38.92834,
     "kori", -77.05099, 38.92899,

@@ -87,3 +87,20 @@ stop_rss %>%
   geom_point() +
   facet_wrap(~ tag)
 
+stop_rss %>% 
+  mutate(node_distance = dark_dist) %>% 
+  filter(tag == "2D") %>% 
+  calibrate() %>% 
+  broom::augment() %>% 
+  ggplot() +
+  aes(x = node_distance) + 
+  geom_point(
+    aes(y = rssi),
+    alpha = 0.1
+  ) +
+  geom_line(
+    aes(
+      x = node_distance,
+      y = .fitted
+    )
+  ) 
