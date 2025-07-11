@@ -3,8 +3,8 @@
 decimal_hours <-
   function(.time) {
     hour(.time) +
-      minute(.time)/60 +
-      second(.time)/3600
+      minute(.time) / 60 +
+      second(.time) / 3600
   }
 
 # align ali-reported stops and detections ---------------------------------
@@ -52,7 +52,7 @@ get_bad_elf_dist <-
             ., 
             filter(
               focal_nodes, 
-              str_detect(location,  "dark$")
+              str_detect(location, "dark$")
             )
           ) %>% 
           as.numeric(),
@@ -61,7 +61,7 @@ get_bad_elf_dist <-
             ., 
             filter(
               focal_nodes, 
-              str_detect(location,  "light$")
+              str_detect(location, "light$")
             )
           ) %>% 
           as.numeric()
@@ -71,5 +71,9 @@ get_bad_elf_dist <-
       
       st_drop_geometry() %>% 
       as_tibble() %>% 
-      select(time, dark_dist, light_dist)
+      select(
+        time, 
+        dark_dist, 
+        light_dist
+      )
   }
